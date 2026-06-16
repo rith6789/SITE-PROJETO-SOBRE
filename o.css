@@ -8,12 +8,26 @@ header {
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
-  border: 20px solid yellowgreen;
+  border: 20px solid rgb(137, 164, 255);
 }
 
 h1 {
     text-align: center;
-  color: yellowgreen; 
+  color: goldenrod; 
   font-size: 50px; 
-  background-color: black; border: 2px solid yellowgreen; margin: 20px; padding: 20px;     
+  background-color: black; border: 2px solid rgb(255, 186, 36); margin: 20px; padding: 20px;     
+
+
+}
+
+section{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+
+    background-color: white;
+    border: 3px solid rgb(137, 164, 255);
+    border-radius: 10px;
+
+    text-align: center;
 }
