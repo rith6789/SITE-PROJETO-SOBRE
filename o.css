@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(185, 247, 241);
+    background-color: rgb(144, 255, 110);
     color: black;
 }
 
@@ -8,14 +8,14 @@ header {
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
-  border: 20px solid rgb(137, 164, 255);
+  border: 20px solid rgb(219, 219, 204);
 }
 
 h1 {
     text-align: center;
-  color: goldenrod; 
+  color: rgb(255, 255, 255); 
   font-size: 50px; 
-  background-color: black; border: 2px solid rgb(255, 186, 36); margin: 20px; padding: 20px;     
+  background-color: black; border: 2px solid rgb(0, 146, 12); margin: 20px; padding: 20px;     
 
 
 }
@@ -25,7 +25,7 @@ section{
     margin: 50px auto;
     padding: 20px;
 
-    background-color: white;
+    background-color: rgb(213, 255, 61);
     border: 3px solid rgb(137, 164, 255);
     border-radius: 10px;
 
