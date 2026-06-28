@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo em Piripiri</title>
+
+    <link rel="stylesheet" href="turism.css">
+</head>
+<body>
+
+<header>
+    <h1>Turismo em Piripiri</h1>
+    <p>Escolha um ponto turístico para conhecer.</p>
+    <div class="sobre">
+        <a href="sobre.html" id="sobre">Sobre</a>
+    </div>
+</header>
+<main>
+
+    <h2 class="titulo" style=" text-align: center;">Pontos Turísticos</h2>
+
+    <div class="cards">
+
+        <div class="card" onclick="abrirLugar1('Igreja Matriz de Nossa Senhora dos Remédios')">
+            <h3>Igreja Matriz de Nossa Senhora dos Remédios</h3>
+            <p>Conheça a história e a arquitetura da igreja.</p>
+        </div>
+
+        <div class="card" onclick="abrirLugar2('Açude Caldeirão')">
+            <h3>Açude Caldeirão</h3>
+            <p>Um dos principais cartões-postais da cidade.</p>
+        </div>
+
+        <div class="card" onclick="abrirLugar3('Cachoeira da Conceição')">
+            <h3>Cachoeira da Conceição</h3>
+            <p>Ideal para quem gosta de natureza e tranquilidade.</p>
+        </div>
+
+        <div class="card" onclick="abrirLugar4('Museu de Piripiri')">
+            <h3>Museu de Piripiri</h3>
+            <p>Conheça um pouco da história da cidade.</p>
+        </div>
+        <script rel="script" src="turism.js"></script>
+    </div>
+
+    <button class="voltar" onclick="sair()" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">
+        Sair
+    </button>
+
+</main>
+
+<footer>
+    <p style="text-align: center;">2026 Piripiri</p>
+</footer>
+
+<script src="turism.js"></script>
+
+</body>
+</html>

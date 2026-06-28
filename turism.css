@@ -1,0 +1,145 @@
+/* Configurações gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9f2d9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Caixa de login */
+.login {
+    width: 300px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #2e8b57;
+    border-radius: 10px;
+}
+
+/* Título */
+.login h2 {
+    text-align: center;
+}
+
+/* Campos de texto */
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Botão */
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+
+
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #2e8b57;
+    color: white;
+}
+
+/* Página inicial */
+.inicio{
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    width: 200px;
+    padding: 20px;
+    background: white;
+    border: 2px solid #2e8b57;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: #2e8b57;
+    color: white;
+}
+
+.sair{
+    margin-top: 30px;
+    padding: 10px 25px;
+}
+footer{
+    background: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#sobre {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white; padding: 5px 10px; border-radius: 5px;
+}
+.voltar {
+    margin-top: 30px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background: conic-gradient(#2e8b57, #2e8b57);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px;
+}
+
+.conteudo img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.texto{
+    max-width: 600px;
+}
+
+.texto h2{
+    color: darkgreen;
+}
+
+.texto p{
+    text-align: justify; border-radius: 5px; padding: 10px; background: white; border: 1px solid #2e8b57;
+}
